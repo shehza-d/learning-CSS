@@ -1,0 +1,66 @@
+.mainDiv{
+	overflow: hidden;
+	width: auto;
+	height: auto;
+	background: transparent;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+
+.mainDiv:nth-child(2){
+	position: absolute;
+	top: 50%;
+	left: 58%;
+	transform: translate(-50%,-50%);
+}
+
+
+a{
+	color: #fff;
+	background: #E51A4B;
+	padding: 15px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 25px;
+	letter-spacing: 4px;
+	height: 60px;
+	overflow: hidden;
+}
+
+.secondBTN{
+	background: #A82682;
+}
+
+
+
+a:before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	background: linear-gradient(to right, transparent 10%, rgba(255,255,255,0.5) 50%, transparent);
+	transform: translate(-50%,-50%);
+	left: -150%;
+	transition: 0.6s;
+}
+
+a:hover:before{
+	left: 150%;
+}
+
+@media only screen and (max-width: 1135px){
+	.mainDiv:nth-child(2){
+		top: 60%;
+		left: 50%;
+	}
+
+	.mainDiv:nth-child(1){
+		top: 45%;
+		left: 50%;
+	}
+}
