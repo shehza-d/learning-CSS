@@ -7,7 +7,9 @@ https://micku7zu.github.io/vanilla-tilt.js/   = for tilt effect with mouse
 Framer motion Animation ki best and so simple library h(ebad)
 https://www.framer.com/motion/
 
+block level element streach with width auto
 
+display:flex; se block hat jata hy
 
 
 
@@ -26,3 +28,33 @@ https://www.framer.com/motion/
 
 
 */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.a {
+  object-fit: cover;
+}
+
+.smol-flexbox-grid {
+  --min: 10ch;
+  --gap: 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.smol-flexbox-grid > * {
+  flex: 1 1 var(--min);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
