@@ -11,9 +11,11 @@ block level element streach with width auto
 
 display:flex; se block hat jata hy
 
-
-
-
+flex: 1  flex-1 is shorthand for 
+flex-grow:1;   	allow grow
+flex-shrink:1;	allow shrink
+flex-basis:1;  (basis is kinda like width)
+use width or flex-basis one of them
 
 
 
