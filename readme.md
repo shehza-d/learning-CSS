@@ -4,6 +4,11 @@
 
 We all know there is always something to learn in CSS 😁
 
+### Useful Libraries
+
+- [Marquee](https://www.react-fast-marquee.com/)
+- [Animations](https://www.framer.com/motion/)
+
 Resources :
 
 - [cssgrid.io](https://cssgrid.io/)

@@ -1,0 +1,37 @@
+/*
+
+import { motion, useScroll } from "framer-motion";
+
+export default function App() {
+  const { scrollYProgress } = useScroll();
+
+  return (
+    <>
+      <motion.div
+        className="progress-bar"
+        style={{ scaleX: scrollYProgress }}
+      />
+      <h1>
+        useScroll demo
+      </h1>
+      <LoremIpsum />
+    </>
+  );
+}
+tailwind 
+className="fixed top-0 left-0 right-0 h-3 bg-accent "
+"origin-left" is optional
+
+CSS
+.progress-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 10px;
+	background: var(--red);
+	transform-origin: 0%; //(optional) 
+  }
+
+
+  */

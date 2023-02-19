@@ -20,3 +20,6 @@ export default function Home() {
     </div>
   );
 }
+<div className="w-3/4 scale-90">
+  <Image src={"/developer.svg"} width="300" height="300" alt="illustration" />
+</div>;
