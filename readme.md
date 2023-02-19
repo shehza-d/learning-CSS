@@ -9,6 +9,12 @@ We all know there is always something to learn in CSS 😁
 - [Marquee](https://www.react-fast-marquee.com/)
 - [Animations](https://www.framer.com/motion/)
 - [ParticlesJS](https://vincentgarreau.com/particles.js/#default)
+- [three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+- [Tables](https://tanstack.com/table/v8/)
+- []()
+- []()
+- []()
+- []()
 
 Resources :
 

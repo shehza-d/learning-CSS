@@ -6,8 +6,8 @@ tailwind ki default values change karni ho tw theme ma nhi extent ma karni chiye
 theme se override hoga extend se extend
 
 
-
-
+text gradient in tailwind
+bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text
 
 
 
