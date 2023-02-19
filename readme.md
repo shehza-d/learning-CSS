@@ -8,6 +8,7 @@ We all know there is always something to learn in CSS 😁
 
 - [Marquee](https://www.react-fast-marquee.com/)
 - [Animations](https://www.framer.com/motion/)
+- [ParticlesJS](https://vincentgarreau.com/particles.js/#default)
 
 Resources :
 
