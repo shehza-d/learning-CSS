@@ -17,12 +17,15 @@ flex-shrink:1;	allow shrink
 flex-basis:1;  (basis is kinda like width)
 use width or flex-basis one of them
 
+change flex direction for responsiveness 
+use gap instead of margin padding
 
 
+use
+  transform: translate(-1.5rem,-1.5rem);
+instead of position: absolute;
 
-
-
-
+* min max width ki aadat daalni pare gyi(P.S aj se phale ma ye use nhi karta tha)
 
 
 
@@ -39,6 +42,8 @@ use width or flex-basis one of them
 
 .a {
   object-fit: cover;
+  display: flex;
+  flex: 1;
 }
 
 .smol-flexbox-grid {
