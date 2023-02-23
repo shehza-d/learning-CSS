@@ -14,7 +14,7 @@ We all know there is always something to learn in CSS 😁
 - [Color Picker](https://coolors.co/)
 - [Gradient Generator](https://www.joshwcomeau.com/gradient-generator/)
 - [SVG Shape Dividers](https://shapedividers.com/)
-- [Animation in Next](https://github.com/ritmillio/next-reveal)
+- [Animation in Next] (https://github.com/ritmillio/next-reveal)
 
 Resources :
 
