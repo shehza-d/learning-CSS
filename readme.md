@@ -16,7 +16,7 @@ We all know there is always something to learn in CSS 😁
 - [SVG Shape Dividers](https://shapedividers.com/)
 - [Animation in Next](https://github.com/ritmillio/next-reveal)
 - [subtle patterns](https://www.toptal.com/designers/subtlepatterns/)
-- []()
+- [backgrounds](https://www.svgbackgrounds.com/)
 - []()
 - []()
 - []()
