@@ -1,5 +1,5 @@
 /* 
-Improtant Links to different Websites
+Important Links to different Websites
 https://css.glass/  =  for blur div 
 
 https://micku7zu.github.io/vanilla-tilt.js/   = for tilt effect with mouse
@@ -7,7 +7,7 @@ https://micku7zu.github.io/vanilla-tilt.js/   = for tilt effect with mouse
 Framer motion Animation ki best and so simple library h(ebad)
 https://www.framer.com/motion/
 
-block level element streach with width auto
+block level element stretch with width auto
 
 display:flex; se block hat jata hy
 
@@ -25,12 +25,16 @@ use
   transform: translate(-1.5rem,-1.5rem);
 instead of position: absolute;
 
-* min max width ki aadat daalni pare gyi(P.S aj se phale ma ye use nhi karta tha)
-* use gap
+- min max width ki aadat daalni pare gyi(P.S aj se phale ma ye use nhi karta tha)
+- use gap
 
-
-
-
+25-Feb-2023
+- You can't use z-index without positioning 
+- position relative is not free from html(document flow) but it can change its position with top:0;
+- absolute is free from html and is according to some parent which have any positioning 
+- width=don't use vh,wv use % | ch is the width of one character of that font because in typography we don't go above 72 char for readability
+- Height= think again do you really need a height and it set min-height
+- Img per max-width diya karo (some time max-width: 100%;) aur display: block;
 */
 
 *,
