@@ -39,6 +39,9 @@ instead of position: absolute;
 27-Feb-2023
 :hover pseudo class
 ::after ::before is pseudo element (dosen't work on imgs)
+
+
+another aspect of stacking context is that a child element is limited to the stacking context of its parent.
 */
 
 *,
