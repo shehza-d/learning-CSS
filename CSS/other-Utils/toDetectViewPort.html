@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./toDetectViewPort.css">
+	<style>
+		.h-screen {
+			height: 100vh;
+		}
+	</style>
+	<title>toDetectViewPort</title>
+</head>
+
+<body>
+	<div class="h-screen"></div>
+	<div class="box"></div>
+	<div class="h-screen"></div>
+	<div class="box"></div>
+	<div class="h-screen"></div>
+
+	<script>
+		const observer = new IntersectionObserver(entries => {
+			entries.forEach(entry => {
+				if (entry.isIntersecting) {
+					entry.target.classList.add('show');
+				} else {
+					entry.target.classList.remove('show')
+				}
+			});
+		});
+
+		const boxes = document.querySelectorAll('.box');
+		boxes.forEach(box => {
+			observer.observe(box);
+		});
+
+	</script>
+</body>
+
+</html>

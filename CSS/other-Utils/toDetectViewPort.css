@@ -1,0 +1,41 @@
+/* You can use the CSS @keyframes rule and the animation 
+property to create animations, and the Intersection Observer API 
+to detect when an element enters the viewport. */
+/* <div class="box"></div> */
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  opacity: 0;
+}
+.show {
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* JS
+  const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }else {
+					entry.target.classList.remove('show')
+				}
+  });
+});
+
+const boxes = document.querySelectorAll('.box');
+boxes.forEach(box => {
+  observer.observe(box);
+});
+ */
