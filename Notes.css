@@ -52,6 +52,13 @@ animation can be paued and resumed in CSS
 💣 Remember with 0 opacity an element still exists in in the layout AND
 will capture clicks meant for anything below that element. You will need
 display and visibility tricks in CSS to get around that or javascript.
+Try setting 'display:none' on the last keyframe and set 'animation-fill-mode' to forwards
+
+You can animate width, height or opacity and set last frame on display none.
+
+You can go from opacity: 1, to opacity: 0 and also change the pointer-events to disable clicks, if you want to remove it from the DOM, you might want to remove it with Javascript. If your removal is only temporary you can display: none; at the end of your animation and rearrange your keyframes/animation duration.
+
+
 
 */
 
