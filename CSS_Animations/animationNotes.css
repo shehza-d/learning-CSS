@@ -1,0 +1,17 @@
+/* 
+
+When animated, visibility values are interpolated between visible and not-visible. One of the start or ending values must therefore be visible or no interpolation can happen. The value is interpolated as a discrete step, where values of the timing function between 0 and 1 map to visible and other values of the timing function (which occur only at the start/end of the transition or as a result of cubic-bezier() functions with y values outside of [0, 1]) map to the closer endpoint.
+
+Syntax
+@keyframes duration | easing-function | delay |
+iteration-count | direction | fill-mode | play-state | name 
+animation: 3s ease-in 1s 2 reverse both paused slidein;
+
+@keyframes duration | easing-function | delay | name
+animation: 3s linear 1s slidein;
+
+two animations
+animation: 3s linear slidein, 3s ease-out 5s slideout;
+
+
+*/
