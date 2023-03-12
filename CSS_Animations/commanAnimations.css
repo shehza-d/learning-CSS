@@ -1,0 +1,124 @@
+/* 1  */
+.fade_in {
+  animation: fadeInAnimation ease-in-out 3000ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+/* 2 */
+.fade_in_cards {
+  animation: fadeInAnimation ease-in-out 5000ms;
+  animation-play-state: paused;
+  animation-iteration-count: 1;
+}
+
+.animate {
+  animation: fadeInAnimation ease-in-out;
+  animation-duration: 800ms;
+  animation-iteration-count: 1;
+  /* animation-play-state: running; */
+}
+.scale {
+  animation: scale ease-in-out 800ms;
+  animation-iteration-count: 1;
+}
+.slider_img {
+  animation: slider_translate_animation ease-in-out;
+  animation-duration: 100ms;
+  animation-iteration-count: 1;
+}
+
+.nth:nth-child(1) {
+  animation-duration: 2000ms;
+}
+.nth:nth-child(3) {
+  animation-duration: 200ms;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes scale {
+  0% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes slider_translate_animation {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.slide_in {
+  animation: slidein ease-in-out 1000ms;
+}
+@keyframes slidein {
+  from {
+    gap: 5.5rem;
+    /* margin-right: -10%; */
+    /* width: 300%; */
+  }
+  to {
+    gap: 2.5rem;
+    /* margin-left: 0%; */
+    /* width: 100%; */
+  }
+}
+
+/* accordion */
+.hide {
+  opacity: 0;
+  height: 0;
+  animation: sweep;
+  animation-duration: 1200ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.accordion {
+  /* color: red; */
+  animation: sweep;
+  animation-duration: 1200ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 1;
+    transform: translateY(-50px);
+    margin-bottom: -300px;
+  }
+  100% {
+    transform: translateY(0px);
+    margin-bottom: 0;
+    color: green;
+    opacity: 1;
+    margin-bottom: 0px;
+  }
+}
+
+details[open] summary + * {
+  opacity: 0;
+  transition: opacity 5s ease-in-out;
+  animation: accordion_ani ease-in-out;
+  animation-duration: 1200ms;
+  animation-iteration-count: 1;
+}
+@keyframes accordion_ani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
