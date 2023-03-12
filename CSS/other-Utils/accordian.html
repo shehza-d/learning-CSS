@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		/* details[open] summary+* {
+			opacity: 0;
+			transition: opacity 1s ease-in-out;
+		}
+
+		details:not([open]) summary+* {
+			display: none;
+		}
+
+		details[open] summary+* {
+			opacity: 1;
+		} */
+		/* 2 */
+		/* .slow-dropdown[open] summary+* { */
+		/* opacity: 0; */
+		/* transition-property: all;
+			transition-duration: 1000ms;
+			transition-timing-function: ease-in-out; */
+		/* animation: fadeInAnimation 1s ease-in-out; */
+		/* animation: fadeInAnimation ease-in-out;
+			animation-duration: 800ms;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		} */
+
+		/* .slow-dropdown[close] summary+* { */
+		/* opacity: 0;	 */
+		/* transition-property: all;
+			transition-duration: 1000ms;
+			transition-timing-function: ease-in-out; */
+		/* animation: fadeInAnimation 1s ease-in-out; */
+		/* animation: fadeOutAnimation ease-in-out;
+			animation-duration: 800ms;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+			animation-delay: 1000ms;
+		}
+
+		.slow-dropdown:not([open]) summary+* {
+			display: none;
+		}
+
+		@keyframes fadeInAnimation {
+			0% {
+				display: none;
+				opacity: 0;
+			}
+
+			100% {
+				display: block;
+				opacity: 1;
+			}
+		}
+
+		@keyframes fadeOutAnimation {
+			0% {
+				opacity: 1;
+			}
+
+			100% {
+				opacity: 0;
+			}
+		} */
+		/* 3 */
+		details {
+			transition: height 1s ease-in-out;
+			overflow: hidden;
+		}
+
+		details:not([open]) {
+			height: 1.25em;
+		}
+
+		details[open] {
+			height: 3.50em;
+		}
+	</style>
+</head>
+
+<body>
+	<details>
+		<summary>Click me to open</summary>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae felis libero. </p>
+	</details>
+
+	<hr>
+	<hr>
+	<details class="slow-dropdown">
+		<summary>Click me to open</summary>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae felis libero. </p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae felis libero. </p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae felis libero. </p>
+	</details>
+
+</body>
+
+</html>

@@ -42,6 +42,17 @@ instead of position: absolute;
 
 
 another aspect of stacking context is that a child element is limited to the stacking context of its parent.
+
+10-Mar-2023
+animation can be paued and resumed in CSS
+
+12-Mar-2023
+📃NOTES: CSS transitions work on number based properties so changing
+'display:block' to 'display:none' will not work like we'd hope it would 😭.
+💣 Remember with 0 opacity an element still exists in in the layout AND
+will capture clicks meant for anything below that element. You will need
+display and visibility tricks in CSS to get around that or javascript.
+
 */
 
 *,
