@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		header {
+			position: fixed;
+			top: 0;
+			height: 125px;
+			width: 100%;
+			background: white;
+			padding: 1rem 2rem;
+		}
+
+		body {
+			background: linear-gradient(to right top, #0089f2 50%, #ddd 50%);
+			background-size: 100% calc(100% - 100vh + 129px);
+			background-repeat: no-repeat;
+			margin: 0;
+			font-family: "Open Sans", sans-serif;
+		}
+
+		body::before {
+			content: "";
+			position: fixed;
+			top: 128px;
+			bottom: 0;
+			width: 100%;
+			z-index: -1;
+			background: white;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		.h-screen {
+			height: 100vh;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Scroll Indicator</h1>
+	</header>
+
+	<main>
+		<h2>Try scrolling down the page</h2>
+		<h1>NO JAVASCRIPT</h1>
+		<p>Idea <a href="https://codepen.io/MadeByMike/pen/ZOrEmr">by Mike</a>.</p>
+		<h2>Lorem ipsum dolor sit amet.</h2>
+		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, deserunt qui! Minima culpa possimus,
+			nostrum consequatur in suscipit incidunt quas dolore qui ex deleniti nisi, voluptas exercitationem at
+			officia tempora!</p>
+		<div class="h-screen"></div>
+		<div class="h-screen"></div>
+		<div class="h-screen"></div>
+		<div class="h-screen"></div>
+	</main>
+</body>
+
+</html>

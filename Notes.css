@@ -58,6 +58,7 @@ You can animate width, height or opacity and set last frame on display none.
 
 You can go from opacity: 1, to opacity: 0 and also change the pointer-events to disable clicks, if you want to remove it from the DOM, you might want to remove it with Javascript. If your removal is only temporary you can display: none; at the end of your animation and rearrange your keyframes/animation duration.
 
+ https://css-tricks.com/hide-scrollbars-during-an-animation/ 
 
 
 */
