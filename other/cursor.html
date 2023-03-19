@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>cursor</title>
 	<style>
-		#cursor {
+		#cursorDiv {
 			position: fixed;
 			z-index: 99;
 			left: 0;
@@ -34,23 +34,19 @@
 			}
 		}
 
-		body {
-			height: 100%;
-		}
-
 		@media (hover: hover) and (pointer: fine) {}
 	</style>
 </head>
 
 <body>
-	<div id="cursor">
+	<div id="cursorDiv">
 		<div class="cursor__circle"></div>
 	</div>
 
 
 
 	<script>
-		const cursor = document.querySelector('#cursor');
+		const cursor = document.querySelector('#cursorDiv');
 		const cursorCircle = cursor.querySelector('.cursor__circle');
 
 		const mouse = { x: -100, y: -100 }; // mouse pointer's coordinates
