@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>tilt</title>
+	<style>
+		body {
+			background: hsl(224, 32%, 12%);
+			background-image: conic-gradient(from 0deg at 50% 50%,
+					blue,
+					purple,
+					purple,
+					blue);
+			/* background-blend-mode: multiply; */
+			min-block-size: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.inner {
+			font-size: 3rem;
+			font-family: sans-serif;
+			font-weight: bold;
+			background: hsl(222, 45%, 7%);
+			padding: 2rem;
+			border-radius: 1rem;
+			position: relative;
+			color: white;
+			transform-style: preserve-3d;
+			transform: perspective(5000px) rotateY(var(--rotateX)) rotateX(var(--rotateY));
+		}
+
+		.inner>* {
+			text-shadow: 0 0 0.7em currentColor;
+		}
+
+		/* shadow */
+		.inner::before {
+			content: "";
+			position: absolute;
+			border-radius: inherit;
+			inset: 0.25rem;
+			border-radius: inherit;
+			background: black;
+			z-index: -1;
+			transform: translateZ(-50px);
+			filter: blur(15px);
+			opacity: 0.7;
+		}
+
+		/* gradient thingy */
+		.inner::after {
+			content: "";
+			position: absolute;
+			border-radius: inherit;
+			z-index: -2;
+			inset: -1rem;
+			background: linear-gradient(-45deg, red, blue);
+			transform: translateZ(-50px);
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="inner">
+			SHEHZAD
+		</div>
+	</div>
+	<script>
+		const element = document.querySelector(".container");
+
+		document.addEventListener("mousemove", (e) => {
+
+			// get mouse position
+			const x = e.clientX;
+			const y = e.clientY;
+			// console.log(x, y)
+
+			// find the middle
+			const middleX = window.innerWidth / 2;
+			const middleY = window.innerHeight / 2;
+			// console.log(middleX, middleY)
+
+			// get offset from middle as a percentage and tone it down a little
+			const offsetX = ((x - middleX) / middleX) * 45;
+			const offsetY = ((y - middleY) / middleY) * 45;
+			// console.log(offsetX, offsetY);
+
+			// set rotation
+			element.style.setProperty("--rotateX", offsetX + "deg");
+			element.style.setProperty("--rotateY", -1 * offsetY + "deg");
+		})
+
+	</script>
+</body>
+
+</html>
