@@ -66,38 +66,38 @@
 </head>
 
 <body>
-	hhhh
 	<div class="container">
 		<div class="inner">
 			SHEHZAD
 		</div>
 	</div>
-	<script>
-		const element = document.querySelector(".container");
-
-		document.addEventListener("mousemove", (e) => {
-
-			// get mouse position
-			const x = e.clientX;
-			const y = e.clientY;
-			// console.log(x, y)
-
-			// find the middle
-			const middleX = window.innerWidth / 2;
-			const middleY = window.innerHeight / 2;
-			// console.log(middleX, middleY)
-
-			// get offset from middle as a percentage and tone it down a little
-			const offsetX = ((x - middleX) / middleX) * 45;
-			const offsetY = ((y - middleY) / middleY) * 45;
-			// console.log(offsetX, offsetY);
-
-			// set rotation
-			element.style.setProperty("--rotateX", offsetX + "deg");
-			element.style.setProperty("--rotateY", -1 * offsetY + "deg");
-		})
-
-	</script>
 </body>
+
+<script>
+	const element = document.querySelector(".container");
+
+	document.addEventListener("mousemove", (e) => {
+
+		// get mouse position
+		const x = e.clientX;
+		const y = e.clientY;
+		// console.log(x, y)
+
+		// find the middle
+		const middleX = window.innerWidth / 2;
+		const middleY = window.innerHeight / 2;
+		// console.log(middleX, middleY)
+
+		// get offset from middle as a percentage and tone it down a little
+		const offsetX = ((x - middleX) / middleX) * 45;
+		const offsetY = ((y - middleY) / middleY) * 45;
+		// console.log(offsetX, offsetY);
+
+		// set rotation
+		element.style.setProperty("--rotateX", offsetX + "deg");
+		element.style.setProperty("--rotateY", -1 * offsetY + "deg");
+	})
+
+</script>
 
 </html>
