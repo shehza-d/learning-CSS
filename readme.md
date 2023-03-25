@@ -11,18 +11,21 @@ We all know there is always something to learn in CSS 😁
 - [ParticlesJS](https://vincentgarreau.com/particles.js/#default)
 - [three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
 - [Tables](https://tanstack.com/table/v8/)
+- [Animation in Next](https://github.com/ritmillio/next-reveal)
+- [React library for scroll and mousemove parallax effect](https://github.com/michalzalobny/react-just-parallax)
+
+### Utilities
+
+- [custom scrollBar](https://codepen.io/stephenpaton-tech/full/JjRvGmY)
 - [Color Picker](https://coolors.co/)
 - [Gradient Generator](https://www.joshwcomeau.com/gradient-generator/)
 - [SVG Shape Dividers](https://shapedividers.com/)
-- [Animation in Next](https://github.com/ritmillio/next-reveal)
 - [subtle patterns](https://www.toptal.com/designers/subtlepatterns/)
 - [backgrounds](https://www.svgbackgrounds.com/)
 - [dummy logos](https://logoipsum.com/)
 - [Pixel to REM calculator](https://nekocalc.com/px-to-rem-converter)
-- [custom scrollBar](https://codepen.io/stephenpaton-tech/full/JjRvGmY)
-- []()
 
-Resources :
+### Resources :
 
 - [cssgrid.io](https://cssgrid.io/)
 - [smolcss.dev](https://smolcss.dev/)
@@ -31,4 +34,4 @@ Resources :
 
 <br>
 
-### [Book Here](https://github.com/shehza-d/Learning-Resources/tree/main/02.%20UX-UI%20design%20and%20CSS)
+### [Styling Book Here](https://github.com/shehza-d/Learning-Resources/tree/main/02.%20UX-UI%20design%20and%20CSS)
