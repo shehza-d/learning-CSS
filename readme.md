@@ -16,6 +16,7 @@ We all know there is always something to learn in CSS 😁
 
 ### Utilities
 
+- [FREE SVGs!](https://worldvectorlogo.com/)
 - [custom scrollBar](https://codepen.io/stephenpaton-tech/full/JjRvGmY)
 - [Color Picker](https://coolors.co/)
 - [Gradient Generator](https://www.joshwcomeau.com/gradient-generator/)
