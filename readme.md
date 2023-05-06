@@ -4,6 +4,8 @@
 
 We all know there is always something to learn in CSS 😁
 
+## [Free Course](https://www.freecodecamp.org/learn/2022/responsive-web-design)
+
 ### Useful Libraries
 
 - [Marquee](https://www.react-fast-marquee.com/)
@@ -36,4 +38,3 @@ We all know there is always something to learn in CSS 😁
 <br>
 
 ### [Styling Book Here](https://github.com/shehza-d/Learning-Resources/tree/main/02.%20UX-UI%20design%20and%20CSS)
-
