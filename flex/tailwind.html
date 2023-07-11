@@ -3,11 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .box {
+        height: 200px;
+        width: 200px;
+        border: 2px solid brown;
+      }
+      .container {
+        background-color: beige;
+        border: 5px solid black;
+        margin: 2px;
+        padding: 2px;
+        display: flex;
+      }
+    </style>
     <script src="./tailwind.js"></script>
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <title>tailwindcss</title>
   </head>
   <body>
-    <h1 class="ff bg-red-500">tailwindcss</h1>
+    <div className="m-16 flex h-screen border-2 border-black">
+      <div className="h-20 w-20 bg-red-500">Box 1</div>
+      <div className="h-20 w-20 bg-cyan-500">Box 2</div>
+      <div className="h-20 w-20 bg-fuchsia-500">Box 3</div>
+      <div className="h-20 w-20 bg-green-500">Box 4</div>
+    </div>
   </body>
 </html>
