@@ -18,6 +18,7 @@ We all know there is always something to learn in CSS 😁
 
 ### Utilities
 
+- [Beautiful CSS box-shadow](https://getcssscan.com/css-box-shadow-examples)
 - [FREE SVGs!](https://worldvectorlogo.com/)
 - [custom scrollBar](https://codepen.io/stephenpaton-tech/full/JjRvGmY)
 - [Color Picker](https://coolors.co/)
@@ -28,7 +29,7 @@ We all know there is always something to learn in CSS 😁
 - [dummy logos](https://logoipsum.com/)
 - [Pixel to REM calculator](https://nekocalc.com/px-to-rem-converter)
 
-### Resources :
+### Resources
 
 - [cssgrid.io](https://cssgrid.io/)
 - [smolcss.dev](https://smolcss.dev/)
