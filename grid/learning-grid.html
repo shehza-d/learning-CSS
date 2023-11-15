@@ -156,19 +156,31 @@
       .border-primary-400 {
         border: 2px solid #a775f1;
       }
-      .grid-col-span-2 {
-        grid-column: span 2;
-      }
+
       /* components */
       .testimonial-grid {
         display: grid;
         gap: 1.5rem;
-        grid-template-columns: repeat(4, 1fr);
         /* grid-template-rows: only add row if nessary; */
-
         padding-block: 2rem;
         width: min(95%, 70rem);
         margin-inline: auto;
+      }
+
+      @media (min-width: 35em) {
+        .grid-col-span-2 {
+          grid-column: span 2;
+        }
+      }
+      @media (min-width: 65em) {
+        .testimonial-grid {
+          grid-template-columns: repeat(4, 1fr);
+        }
+        .testimonial:last-child {
+          grid-column-start: 4;
+          /* grid-row-start: 1; grid-row-end: span 2; below is the short hand */
+          grid-row: 1 / span 2;
+        }
       }
 
       .testimonial {
@@ -179,12 +191,6 @@
               0.25);
       }
 
-      .testimonial:last-child {
-        grid-column-start: 4;
-        /* grid-row-start: 1;
-        grid-row-end: span 2; below is the short hand */
-        grid-row: 1 / span 2;
-      }
       .testimonial.quote {
         background-image: url("./images/bg-pattern-quotation.svg");
         background-repeat: no-repeat;
@@ -218,7 +224,7 @@
       }
     </style>
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-    <title>FEM grid</title>
+    <title>Grid</title>
   </head>
 
   <body>
@@ -231,7 +237,7 @@
             <img src="./images/image-daniel.jpg" alt="daniel clifford" />
           </div>
           <div>
-            <h2 class="name">Shehzad Clifford</h2>
+            <h2 class="name">Shehzad Iqbal</h2>
             <p class="position">Verified Graduate</p>
           </div>
         </div>
