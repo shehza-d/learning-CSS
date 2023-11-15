@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+	<!--Try to make this layout with tailwind https://miro.medium.com/v2/resize:fit:787/0*C8W3aR9H66rcj7Ml -->
+  </head>
+  <body class="grid gap-8 grid-cols-3 min-h-screen">
+
+    <header class="bg-purple-400 col-span-full h-14">Header</header>
+    <!-- <main> -->
+      <section class="bg-purple-400 col-start-2 col-end-4">Section 1</section>
+      <section class="bg-purple-400 col-start-2">Section 2</section>
+      <section class="bg-purple-400 col-start-3">Section 3</section>
+    <!-- </main> -->
+    <aside class="bg-purple-400 row-start-2 row-span-2">Siderbar</aside>
+    <footer class="bg-purple-400 col-span-full">Footer</footer>
+  </body>
+</html>
