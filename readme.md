@@ -19,6 +19,7 @@ We all know there is always something to learn in CSS 😁
 ### Utilities
 
 - [Beautiful CSS box-shadow](https://getcssscan.com/css-box-shadow-examples)
+- [CSS checkboxes examples](https://getcssscan.com/css-checkboxes-examples)
 - [FREE SVGs!](https://worldvectorlogo.com/)
 - [custom scrollBar](https://codepen.io/stephenpaton-tech/full/JjRvGmY)
 - [Color Picker](https://coolors.co/)
