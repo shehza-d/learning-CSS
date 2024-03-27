@@ -1,6 +1,7 @@
 # Beautiful Sites
 
 1. [github.com/readme](https://github.com/readme)
+1. [locomotive scroll](https://locomotivemtl.github.io/locomotive-scroll/)
 1. [google.com/intl/en_uk/chrome](https://www.google.com/intl/en_uk/chrome)
 1. [stars.github.com/program](https://stars.github.com/program)
 1. [nextjs.org](https://nextjs.org)
